@@ -1,0 +1,84 @@
+﻿@model ProductDetailsViewModel
+<!-- Start Contentbar -->
+<div class="contentbar">
+	<!-- Start row -->
+	<div class="row">
+		<!-- Start col -->
+		<div class="col-md-12 col-lg-12 col-xl-12">
+			<div class="card m-b-30">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-lg-5 col-xl-4">
+							<div class="product-slider-box product-box-for">
+								<img style="width:348px" "height:250px" src="/images/products/@Model.ImageUrl" />
+							</div>
+						</div>
+						<div class="col-lg-4 col-xl-6">
+							<p><span class="badge badge-light font-16">Pupular</span></p>
+							<h3 class="display-6 fs-4 fw-normal text-danger">@Model.Name</h3>
+							<a asp-area=""
+							   asp-controller="Home"
+							   asp-action="IntructorDetails"
+							   asp-route-url="@Model.InstructorUrl">
+							</a>
+							<p>
+								<i class="feather icon-star text-warning"></i>
+								<i class="feather icon-star text-warning"></i>
+								<i class="feather icon-star text-warning"></i>
+								<i class="feather icon-star"></i>
+								<i class="feather icon-star"></i>
+							</p>
+							<div>
+								<h4>
+									<span class="text-muted text-decoration-line-through">@($"{1000:C0}")</span>
+									@($"{Model.Price:C0}")
+								</h4>
+							</div>
+							<div>
+								<h3 class="bg-warning p-2 fs-6 text-white fw-bold display-6 mt-3">Eğitim Süresi: 200 Saat</h3>
+								
+								<p class="fs-6">@Html.Raw(Model.Description)</p>
+							</div>
+							<div class="button-list mt-5 mb-3 d-flex justify-content-center">
+
+								<form asp-area=""
+									  asp-controller="Cart"
+									  asp-action="AddToCart"
+									  method="post">
+									<input type="hidden" asp-for="Id" />
+									<button type="submit" class="btn btn-outline-dark ">Sepete Ekle</button>
+									<input class="form-control d-inline p-1" style="width:60px;" type="number" name="quantity" min="1" max="9" value="1" />
+								</form>
+
+							</div>
+						</div>
+						<div class="col-lg-3 col-xl-2">
+							<img class="img-thumbnail mt-5" src="/images/instructors/1.png" />
+							<h3 class="bg-warning p-2 fs-6 text-white fw-bold display-6 mt-3">@Model.InstructorName</h3>
+							<p class="fs-6"> <b>Eğitmen Hakkında: </b>@Html.Raw(Model.InstructorAbout)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End col -->
+	</div>
+	<!-- End row -->
+</div>
+<!-- End Containerbar -->
+<!-- Start js -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/modernizr.min.js"></script>
+<script src="assets/js/detect.js"></script>
+<script src="assets/js/jquery.slimscroll.js"></script>
+<script src="assets/js/vertical-menu.js"></script>
+<!-- Switchery js -->
+<script src="assets/plugins/switchery/switchery.min.js"></script>
+<!-- Slick js -->
+<script src="assets/plugins/slick/slick.min.js"></script>
+<script src="assets/js/custom/custom-ecommerce-single-product.js"></script>
+<!-- Core js -->
+<script src="assets/js/core.js"></script>
+<!-- End js -->
