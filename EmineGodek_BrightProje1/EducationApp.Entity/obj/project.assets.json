@@ -773,11 +773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Entity\\EducationApp.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Entity\\EducationApp.Entity.csproj",
       "projectName": "EducationApp.Entity",
-      "projectPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Entity\\EducationApp.Entity.csproj",
+      "projectPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Entity\\EducationApp.Entity.csproj",
       "packagesPath": "C:\\Users\\Emine Gödek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Entity\\obj\\",
+      "outputPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Emine Gödek\\AppData\\Roaming\\NuGet\\NuGet.Config",

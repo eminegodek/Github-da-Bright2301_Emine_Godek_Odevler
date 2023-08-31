@@ -1557,11 +1557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Data\\EducationApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Data\\EducationApp.Data.csproj",
       "projectName": "EducationApp.Data",
-      "projectPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Data\\EducationApp.Data.csproj",
+      "projectPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Data\\EducationApp.Data.csproj",
       "packagesPath": "C:\\Users\\Emine Gödek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Data\\obj\\",
+      "outputPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Emine Gödek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1578,11 +1578,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Core\\EducationApp.Core.csproj": {
-              "projectPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Core\\EducationApp.Core.csproj"
+            "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Core\\EducationApp.Core.csproj": {
+              "projectPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Core\\EducationApp.Core.csproj"
             },
-            "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Entity\\EducationApp.Entity.csproj": {
-              "projectPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Entity\\EducationApp.Entity.csproj"
+            "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Entity\\EducationApp.Entity.csproj": {
+              "projectPath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Entity\\EducationApp.Entity.csproj"
             }
           }
         }

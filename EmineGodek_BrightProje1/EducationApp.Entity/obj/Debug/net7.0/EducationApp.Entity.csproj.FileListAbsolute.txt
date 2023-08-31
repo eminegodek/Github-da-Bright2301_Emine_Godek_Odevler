@@ -70,3 +70,27 @@ C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\EducationApp.Entity\obj\Debu
 C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\refint\EducationApp.Entity.dll
 C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.pdb
 C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\ref\EducationApp.Entity.dll
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.deps.json
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.csproj.AssemblyReference.cache
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.AssemblyInfoInputs.cache
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.AssemblyInfo.cs
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\refint\EducationApp.Entity.dll
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\ref\EducationApp.Entity.dll
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.deps.json
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.csproj.AssemblyReference.cache
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.AssemblyInfoInputs.cache
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.AssemblyInfo.cs
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\refint\EducationApp.Entity.dll
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\ref\EducationApp.Entity.dll

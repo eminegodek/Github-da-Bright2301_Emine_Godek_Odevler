@@ -112,3 +112,41 @@ C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\EducationApp.Data\obj\Debug\
 C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
 C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
 C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.deps.json
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.runtimeconfig.json
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Core.dll
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Core.pdb
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.AssemblyReference.cache
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfoInputs.cache
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfo.cs
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CopyComplete
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.dll
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\refint\EducationApp.Data.dll
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
+C:\Users\DopingHafiza\Desktop\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.deps.json
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.runtimeconfig.json
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.dll
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Core.dll
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Core.pdb
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.AssemblyReference.cache
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfoInputs.cache
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.AssemblyInfo.cs
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.csproj.CopyComplete
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.dll
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\refint\EducationApp.Data.dll
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.pdb
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\EducationApp.Data.genruntimeconfig.cache
+C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Data\obj\Debug\net7.0\ref\EducationApp.Data.dll

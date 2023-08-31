@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LwOHIVwFzCuT0etJt/9Jie1BYbtqc214nKQlUsAOQKwjDTCqM1Iy9iYjr0vmyhmmuuUj5gMbPPLvpcOAXyjM/g==",
+  "dgSpecHash": "R93xlBrRKGW4tZxasqKVVzty+i1qHXy1W60kEulpriRybvN1/r8i8tTbBnICnvMxsaOa8HHS3Bd0WDTFRdLt0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\EducationApp.Core\\EducationApp.Core.csproj",
+  "projectFilePath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Core\\EducationApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emine Gödek\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Emine Gödek\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

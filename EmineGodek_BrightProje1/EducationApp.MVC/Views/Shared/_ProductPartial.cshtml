@@ -1,38 +1,48 @@
 ﻿@model ProductViewModel
-<div class="card h-100" style="width:350px; height:200px">
-	<!-- Sale badge-->
-	<div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-	<!-- Product image-->
-	<a asp-area="" asp-controller="EducationApp" asp-action="ProductDetails" asp-route-url="@Model.Url">
-		<img src="~/images/products/@Model.ImageUrl" class="card-img-top" style="width:348px; height:200px" />
-	</a>
-	<!-- Product details-->
-	<div class="card-body">
-		<div class="text-center">
-			<!-- Product name-->
-			<h4 class="card-title fw-bolder ">@Model.Name</h4>
-			<div class="d-flex justify-content-center m-3">
-				<div><i class="fa-solid fa-star fa-lg" style="color: #ffc800;"></i></div>
-				<div><i class="fa-solid fa-star fa-lg" style="color: #ffc800;"></i></div>
-				<div><i class="fa-solid fa-star fa-lg" style="color: #ffc800;"></i></div>
-				<div><i class="fa-solid fa-star fa-lg" style="color: #ffc800;"></i></div>
-				<div><i class="fa-solid fa-star fa-lg" style="color: #ffc800;"></i></div>
-			</div>
-			<h4>
-				<span class="text-muted text-decoration-line-through">@($"{1000:C0}")</span>
-				@($"{Model.Price:C0}")
-			</h4>
-		</div>
-	</div>
-	<!-- Product actions-->
-	<div class="d-flex justify-content-center mb-3">
-		<form asp-area=""
-			  asp-controller="Cart"
-			  asp-action="AddToCart"
-			  method="post">
-			<input type="hidden" asp-for="Id" />
-			<button type="submit" class="btn btn-outline-dark ">Sepete Ekle</button>
-			<input class="form-control d-inline p-1" style="width:60px" type="number" name="quantity" min="1" max="9" value="1" />
-		</form>
-	</div>
+
+<div class="col mb-5">
+    <div class="card h-100">
+        <!-- Sale badge-->
+        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+        <!-- Product image-->
+        <img class="card-img-top" width="450" height="300" src="~/images/img/@Model.ImageUrl" alt="..." />
+        <!-- Product details-->
+        <div class="card-body p-4">
+            <div class="text-center">
+                <!-- Product name-->
+                <h5 class="fw-bolder">@Model.Name</h5>
+                <!-- Product reviews-->
+                <div class="d-flex justify-content-center small text-warning mb-2">
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                </div>
+                <!-- Product price-->
+                <span class="text-muted text-decoration-line-through">@Model.Price</span>
+                2000
+            </div>
+        </div>
+        <!-- Product actions-->
+
+        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            <div class="text-center">
+                <a class="btn btn-outline-dark mt-auto"
+                   asp-area="" asp-controller="ProductShop" asp-action="ProductDetails" asp-route-url="@Model.Url">İncele</a>
+            </div>
+        </div>
+        <div>
+            <div class="text-center">
+                <form asp-area=""
+                      asp-controller="Cart"
+                      asp-action="AddToCart"
+                      method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" name="Quantity" value="1" />
+                    <button type="submit" class="btn btn-dark my-2 mt-auto">Sepete Ekle</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
