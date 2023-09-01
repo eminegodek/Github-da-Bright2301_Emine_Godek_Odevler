@@ -1,0 +1,17 @@
+﻿@model List<InstructorViewModel>
+<div class="list-group mt-4">
+    <a class="list-group-item list-group-item-action"
+       asp-area=""
+       asp-controller="EducationApp"
+       asp-action="InstructorList"
+       asp-route-instructorurl=""
+       asp-route-categoryurl="">Eğitmenler</a>
+    @foreach (var instructorViewModel in Model)
+    {
+        <a class="list-group-item list-group-item-action"
+           asp-area=""
+           asp-controller="EducationApp"
+           asp-action="InstructorList"
+           asp-route-instructorurl="@instructorViewModel.Url">@instructorViewModel.Name</a>
+    }
+</div>

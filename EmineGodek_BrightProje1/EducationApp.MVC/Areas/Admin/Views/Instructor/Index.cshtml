@@ -1,0 +1,122 @@
+﻿@model InstructorListViewModel
+<div class="row my-2">
+	<div class="col-md-6">
+		<h1 class="display-6">
+			@(Model.SourceAction == "Index" ? "Eğitmenler" : "Silinmiş Eğitmenler")
+		</h1>
+	</div>
+	@if (Model.SourceAction == "Index")
+	{
+		<div class="col-md-6 d-flex align-items-center justify-content-end">
+			<a asp-area="Admin"
+			   asp-controller="Instructor"
+			   asp-action="Create"
+			   class="btn btn-primary">Yeni Eğitmen</a>
+		</div>
+	}
+</div>
+
+@if (Model.InstructorViewModelList.Count > 0)
+{
+	<div class="card mb-4">
+		<div class="card-body">
+			<table id="data-table" class="table-striped w-100">
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Fotoğraf</th>
+						<th>Ad Soyad</th>
+						<th>Yaş</th>
+						<th>Oluşturulma Tarihi</th>
+						<th>Son Değiştirilme Tarihi</th>
+						<th>Aktif mi?</th>
+						<th width="100">İşlemler</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var instructor in Model.InstructorViewModelList)
+					{
+						<tr>
+							<td>@instructor.Id</td>
+							<td>
+								<img src="~/images/instructors/@instructor.PhotoUrl" width="75">
+							</td>
+							<td>@instructor.Name</td>
+							<td>@instructor.Age()</td>
+							<td>@instructor.CreatedDate.ToShortDateString()</td>
+							<td>@instructor.ModifiedDate.ToShortDateString()</td>
+							<td>
+								<form class="form-check"
+									  asp-area="Admin"
+									  asp-controller="Instructor"
+									  asp-action="UpdateIsActive"
+									  asp-route-id="@instructor.Id"
+									  id="form-instructor-is-active-@instructor.Id">
+									<div class="form-check form-switch">
+										<input class="form-check-input"
+											   type="checkbox"
+											   role="switch"
+											   id="flexSwitchCheckChecked" @(
+									   instructor.IsActive ? "checked" : ""
+									   )
+											   onchange="document.getElementById(`form-instructor-is-active-@instructor.Id`).submit();">
+									</div>
+
+								</form>
+							</td>
+							<td>
+								<!-- KALICI OLARAK SİLME BUTONU -->
+								<a class="btn btn-danger btn-sm"
+								   asp-area="Admin"
+								   asp-controller="Instructor"
+								   asp-action="Delete"
+								   asp-route-id="@instructor.Id">
+									<i class="fa-solid fa-trash"></i>
+								</a>
+
+								<!-- SOFT SİLME BUTONU -->
+								@if (Model.SourceAction == "Index")
+								{
+									@await Html.PartialAsync("_InstructorDeletePartial", instructor)
+									<!-- GÜNCELLEME BUTONU -->
+									<a class="btn btn-info btn-sm"
+									   asp-area="Admin"
+									   asp-controller="Instructor"
+									   asp-action="Edit"
+									   asp-route-id="@instructor.Id">
+										<i class="fa-solid fa-pen-to-square"></i>
+									</a>
+								}
+								else
+								{
+									<a class="btn btn-success btn-sm"
+									   asp-area="Admin"
+									   asp-controller="Instructor"
+									   asp-action="SoftDelete"
+									   asp-route-id="@instructor.Id">
+										<i class="fa-solid fa-arrow-rotate-left"></i>
+									</a>
+								}
+
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+}
+else
+{
+	<div class="alert alert-warning" role="alert">
+		Herhangi bir eğitmen bilgisi yoktur.
+	</div>
+}
+
+@section Css{
+	@await Html.PartialAsync("_DataTablesStylesPartial")
+}
+
+@section Js{
+	@await Html.PartialAsync("_DataTablesScriptsPartial")
+}

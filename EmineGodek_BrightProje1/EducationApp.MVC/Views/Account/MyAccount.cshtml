@@ -1,0 +1,170 @@
+﻿@model UserAccountViewModel
+<div class="row">
+    <div class="col-lg-8">
+        <div class="card shadow-lg border-0 rounded-lg mt-3">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="font-weight-light mb-2">Hesabım</h3>
+                    </div>
+                    <div class="col text-end">
+                        <span>
+                            <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-link">Vazgeç</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <form asp-area="" asp-controller="Account" asp-action="MyAccount" method="post">
+                    <input type="hidden" name="Id" value="@Model.Id" />
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-4">
+                            <div class="mb-2 mb-md-0">
+                                <label asp-for="FirstName"></label>
+                                <input asp-for="FirstName" class="form-control" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="FirstName"></span>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mb-2 mb-md-0">
+                                <label asp-for="LastName"></label>
+                                <input asp-for="LastName" class="form-control" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="LastName"></span>
+                        </div>
+                        <div class="col-md-4">
+                            <div>
+                                <label asp-for="DateOfBirth"></label>
+                                <input type="date" class="form-select" asp-for="DateOfBirth" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="DateOfBirth"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div>
+                                <label asp-for="Gender"></label>
+                                <select class="form-select" asp-items="@Model.GenderSelectList" asp-for="Gender">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-2 mb-md-0">
+                                <label asp-for="UserName"></label>
+                                <input asp-for="UserName" class="form-control" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="UserName"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-2 mb-md-0">
+                                <label asp-for="Email"></label>
+                                <input asp-for="Email" class="form-control" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="Email"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-2 mb-md-0">
+                                <label asp-for="PhoneNumber"></label>
+                                <input asp-for="PhoneNumber" class="form-control" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="">
+                                <label class="form-label" asp-for="Address"></label>
+                                <textarea class="form-control fs-1" asp-for="Address"></textarea>
+                                <span class="text-danger" asp-validation-for="Address"></span>
+                            </div>
+                            <span class="text-danger" asp-validation-for="Address"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-2 mb-md-0">
+                                <label asp-for="City"></label>
+                                <input asp-for="City" class="form-control" />
+                            </div>
+                            <span class="text-danger" asp-validation-for="City"></span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 mb-0">
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-block">Değişiklikleri Kaydet</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card shadow-lg border-0 rounded-lg mt-3">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="font-weight-light mb-2">Siparişlerim</h3>
+                    </div>
+                    <div class="col text-end">
+                        <span>
+                            <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-link">Vazgeç</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="accordion" id="accordionOrders">
+                    @foreach (var order in Model.Orders)
+                    {
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse_@order.Id" aria-expanded="false"
+                                    aria-controls="collapse_@order.Id">
+                                    @order.OrderDate - @order.OrderStatus
+                                </button>
+                            </h2>
+                            <div id="collapse_@order.Id" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionOrders">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <span class="text-warning">@order.FirstName @order.LastName</span>
+                                        </div>
+                                    </div>
+                                    <table class="table table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th>Eğitim</th>
+                                                <th>Adet</th>
+                                                <th>Fiyat</th>
+                                                <th>Toplam</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in order.OrderItems)
+                                            {
+                                                <tr>
+                                                    <td>@item.Product.Name</td>
+                                                    <td>@item.Quantity</td>
+                                                    <td>@($"{item.Price:C2}")</td>
+                                                    <td>@($"{(item.Quantity * item.Price):C2}")</td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th colspan="2">Toplam: </th>
+                                                <td colspan="2">@($"{order.TotalPrice():C2}")</td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial");
+}
