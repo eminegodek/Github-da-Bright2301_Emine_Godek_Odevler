@@ -94,3 +94,15 @@ C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entit
 C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\refint\EducationApp.Entity.dll
 C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.pdb
 C:\Users\Emine Gödek\OneDrive\Masaüstü\mvc_emine\mvc_emine\EducationApp.Entity\obj\Debug\net7.0\ref\EducationApp.Entity.dll
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.deps.json
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\bin\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.csproj.AssemblyReference.cache
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.AssemblyInfoInputs.cache
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.AssemblyInfo.cs
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.dll
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\obj\Debug\net7.0\refint\EducationApp.Entity.dll
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\obj\Debug\net7.0\EducationApp.Entity.pdb
+C:\Users\Emine Gödek\OneDrive\Belgeler\GitHub\Github-da-Bright2301_Emine_Godek_Odevler\EmineGodek_BrightProje1\EducationApp.Entity\obj\Debug\net7.0\ref\EducationApp.Entity.dll

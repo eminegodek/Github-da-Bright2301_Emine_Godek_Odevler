@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U8Yno1cVNjHHk0xtweYKN1JuBJTLfKAJSWrnJf6SEv9vtsyIdwW+FTM6vUF8lyul+K3y0pun6u/s29edDrKZdw==",
+  "dgSpecHash": "+Nb7c/zgC1pykGit0/e+HJ7e71MIapxAzNTNWi71LQa++FYA7qXS23qIdR2NCUqoAH29l/A7nejtSmZVvk5+8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.MVC\\EducationApp.MVC.csproj",
+  "projectFilePath": "C:\\Users\\Emine Gödek\\OneDrive\\Belgeler\\GitHub\\Github-da-Bright2301_Emine_Godek_Odevler\\EmineGodek_BrightProje1\\EducationApp.MVC\\EducationApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emine Gödek\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\Emine Gödek\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

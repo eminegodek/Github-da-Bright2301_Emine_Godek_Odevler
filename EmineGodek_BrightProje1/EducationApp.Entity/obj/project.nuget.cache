@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R8qnm1TREsTWuJqxj+IyPEVVTbsFVZdIAmkSzzw4c2ReILQkNVtbSeys5sS/aRlckENm793bJ+jihB4kZfgBOg==",
+  "dgSpecHash": "a7eGochwjGDccFMef2PEBaQqJhJk1+Js/U3xSTjHg1Qgv0ELfG8/GaZGsK/dMLJJq/70xghwW/dY83e96Tkf6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emine Gödek\\OneDrive\\Masaüstü\\mvc_emine\\mvc_emine\\EducationApp.Entity\\EducationApp.Entity.csproj",
+  "projectFilePath": "C:\\Users\\Emine Gödek\\OneDrive\\Belgeler\\GitHub\\Github-da-Bright2301_Emine_Godek_Odevler\\EmineGodek_BrightProje1\\EducationApp.Entity\\EducationApp.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emine Gödek\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.9\\microsoft.aspnetcore.cryptography.internal.7.0.9.nupkg.sha512",
     "C:\\Users\\Emine Gödek\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.9\\microsoft.aspnetcore.cryptography.keyderivation.7.0.9.nupkg.sha512",
